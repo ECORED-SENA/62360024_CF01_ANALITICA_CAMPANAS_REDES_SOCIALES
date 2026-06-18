@@ -30,60 +30,59 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es una característica que diferencia al marketing en redes sociales del marketing tradicional?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Utiliza principalmente medios físicos para la difusión.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Se orienta exclusivamente a campañas publicitarias pagas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Permite una interacción directa entre marcas y usuarios.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Depende únicamente de contenidos audiovisuales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'Una organización desea aumentar el reconocimiento de su marca en redes sociales. ¿Cuál objetivo está persiguiendo principalmente?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Optimizar los procesos administrativos internos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Incrementar la notoriedad y presencia de la marca.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Reducir el tiempo de producción de contenidos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Fortalecer la gestión documental de la organización.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +91,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál de las siguientes acciones corresponde a una estrategia de interacción en redes sociales?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Incrementar el presupuesto publicitario mensual.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Programar publicaciones sin analizar respuestas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Realizar encuestas y responder comentarios.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Modificar el diseño visual del sitio web.',
               esCorrecta: false,
             },
           ],
@@ -123,28 +123,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué elemento es indispensable para desarrollar una campaña digital efectiva?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Mantener una frecuencia alta de publicaciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Definir un presupuesto fijo mensual.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Definir objetivos claros y medibles.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Utilizar varias plataformas digitales al mismo tiempo.',
               esCorrecta: false,
             },
           ],
@@ -153,29 +153,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál es la principal diferencia entre una campaña orgánica y una campaña paga?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La campaña orgánica genera más conversiones que la paga.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La campaña paga utiliza únicamente contenido audiovisual.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La campaña orgánica requiere menor planeación estratégica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'La campaña paga implica inversión publicitaria directa.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -184,28 +185,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            'Una campaña orientada a obtener registros de usuarios o ventas está enfocada principalmente en:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Conversión y generación de resultados.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Posicionamiento institucional de largo plazo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Incremento del reconocimiento de marca.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Expansión de canales de comunicación.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +216,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué relación existe entre los objetivos comerciales y las campañas digitales?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Las campañas sustituyen los objetivos comerciales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Los objetivos se establecen después de finalizar la campaña.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Los objetivos y las campañas son independientes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Los objetivos orientan las estrategias y acciones de la campaña.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -246,28 +247,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            'Dentro del embudo de conversión, la etapa en la que el usuario realiza la acción esperada corresponde a:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Atracción.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Fidelización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Conversión.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Consideración.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +278,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Cuál de los siguientes criterios se utiliza para segmentar audiencias digitales?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Edad, intereses y comportamiento digital.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Cantidad de productos disponibles en inventario.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Número de sedes operativas de la organización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tamaño de las instalaciones de la empresa.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +309,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Cuál de las siguientes métricas permite conocer cuántas personas únicas visualizaron un contenido?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Alcance.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Frecuencia.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Retención.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Conversión.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +340,28 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué diferencia principalmente a una métrica de un KPI dentro de una campaña digital?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ambos conceptos representan exactamente la misma información.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Una métrica mide resultados y un KPI evalúa indicadores vinculados a objetivos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un KPI se utiliza únicamente en campañas pagas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Las métricas solo pueden aplicarse en redes sociales.',
               esCorrecta: false,
             },
           ],
@@ -370,28 +371,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál de los siguientes KPI está más relacionado con el objetivo de generar interacción en redes sociales?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Costo por adquisición.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tasa de rebote.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Engagement.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Retorno de inversión.',
               esCorrecta: false,
             },
           ],
@@ -401,28 +402,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Qué elemento debe considerarse primero al elaborar un plan de medición para una campaña digital?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'La cantidad de publicaciones programadas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Los objetivos que se desean alcanzar.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El presupuesto destinado al diseño gráfico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La duración de los videos promocionales.',
               esCorrecta: false,
             },
           ],
@@ -432,28 +433,28 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál de las siguientes opciones corresponde a una herramienta externa de análisis digital?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Google Analytics.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Instagram Stories.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Facebook Feed.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'TikTok Creator Center.',
               esCorrecta: false,
             },
           ],
@@ -463,29 +464,184 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál es el propósito principal de segmentar una audiencia en una campaña digital?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Reducir la cantidad de contenido publicado.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Dirigir mensajes a grupos con características similares.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Incrementar la frecuencia de publicación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Optimizar la comunicación con públicos específicos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'Una empresa desea mostrar anuncios únicamente a personas interesadas en deportes y actividad física. ¿Qué tipo de segmentación está utilizando?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Segmentación geográfica.',
               esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Segmentación temporal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Segmentación organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Segmentación por intereses.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué herramienta integrada permite consultar métricas directamente dentro de una red social?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Procesador de texto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Panel de análisis de la plataforma.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Editor de imágenes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sistema de almacenamiento digital.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es una ventaja de utilizar herramientas analíticas en campañas digitales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Permiten comprender el comportamiento de los usuarios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Facilitan la creación automática de contenido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituyen los objetivos de la campaña.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Garantizan el éxito comercial de la estrategia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué información aporta una métrica de conversión?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cantidad de seguidores obtenidos durante un periodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Nivel de interacción con las publicaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Usuarios que completaron una acción definida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Número de contenidos publicados en la campaña.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Por qué es importante relacionar las métricas con los objetivos comerciales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Porque mejora automáticamente la segmentación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Porque facilita la programación de contenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque incrementa el alcance de las campañas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque permite evaluar el cumplimiento de las metas establecidas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

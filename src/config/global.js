@@ -295,14 +295,46 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alcance',
+      significado: 'En el ámbito del marketing, el alcance se refiere a la cantidad de personas o usuarios únicos que han visto o han sido expuestos a un determinado contenido o mensaje publicitario en un período de tiempo determinado.',
+    },
+    {
+      termino: 'Campaña digital',
+      significado: 'Las campañas digitales son acciones de marketing diseñadas para promocionar productos, servicios o marcas utilizando medios digitales, como internet, redes sociales, correos electrónicos y otros canales en línea.',
+    },
+    {
+      termino: 'Contenido audiovisual',
+      significado: 'El contenido audiovisual hace referencia a cualquier tipo de material que emplea tanto elementos visuales como auditivos para comunicar un mensaje.',
+    },
+    {
+      termino: 'Embudo de conversión',
+      significado: 'También llamado funnel de conversión, es una metodología y al mismo tiempo una herramienta guía que permite analizar y optimizar las conversiones de los usuarios durante su jornada de compra.',
+    },
+    {
+      termino: 'ROI',
+      significado: 'El ROI es una métrica que mide el rendimiento de una inversión comparando la ganancia obtenida con el costo inicial de la inversión.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Blanco, E. (2023, febrero 10). Embudo de conversión: Qué es, etapas, tipos y diferencias. RD Station.',
       link: '',
+    },
+    {
+      referencia: 'García, P. (2014, agosto 21). ROI: Definición, fórmulas y ejemplos. Clientify.',
+      link: 'https://clientify.com/blog/marketing/roi-definicion-formulas-ejemplos',
+    },
+    {
+      referencia: 'Mansilla, J. (2024, julio 23). Tipos e importancia del contenido audiovisual. Jamil Mansilla.',
+      link: 'https://jamilmansilla.com/contenido-audiovisual/',
+    },
+    {
+      referencia: 'MSMK. (2024, septiembre 11). ¿Qué es el alcance? MSMK University.',
+      link: 'https://msmk.university/que-es-el-alcance/',
+    },
+    {
+      referencia: 'Santander Open Academy. (2021, mayo 26). Campañas digitales: Qué son y cómo lograr que funcionen.',
+      link: 'https://www.santanderopenacademy.com/es/blog/campanas-digitales.html',
     },
   ],
   creditos: [
