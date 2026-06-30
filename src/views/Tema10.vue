@@ -167,19 +167,19 @@
                 .col-8
                   img(src='@/assets/curso/temas/t10/img18.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text Facebook e Instagram
-              p.mb-0.text-center Meta Business Suite
+              p.mb-0.text-center Meta #[i Business Suite]
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/temas/t10/img19.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text Instagram
-              p.mb-0.text-center Instagram Insights
+              p.mb-0.text-center Instagram #[i Insights]
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/temas/t10/img20.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text TikTok
-              p.mb-0.text-center TikTok Analytics
+              p.mb-0.text-center TikTok #[i Analytics]
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8

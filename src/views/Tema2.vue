@@ -65,7 +65,7 @@
       Separador
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.1 Características y beneficios de las campañas digitales
-      p.mb-5 Las campañas digitales integran herramientas, contenidos y recursos tecnológicos que facilitan la gestión de estrategias de comunicación y marketing en entornos digitales. Sus principales características son las siguientes:
+      p.mb-5 Las campañas digitales integran herramientas, contenidos y recursos tecnológicos que facilitan la gestión de estrategias de comunicación y #[i marketing] en entornos digitales. Sus principales características son las siguientes:
       .bg-slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -178,7 +178,7 @@
       Separador
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.3 Objetivos de campañas digitales
-      p Los objetivos de las campañas digitales corresponden a los resultados que las organizaciones esperan alcanzar mediante la implementación de estrategias de marketing en redes sociales. Estos objetivos orientan #[b el desarrollo de contenidos, la segmentación de audiencias y la selección de métricas e indicadores] para evaluar el rendimiento de las campañas.
+      p Los objetivos de las campañas digitales corresponden a los resultados que las organizaciones esperan alcanzar mediante la implementación de estrategias de #[i marketing] en redes sociales. Estos objetivos orientan #[b el desarrollo de contenidos, la segmentación de audiencias y la selección de métricas e indicadores] para evaluar el rendimiento de las campañas.
       p.mb-5 La definición de objetivos claros permite establecer #[b acciones estratégicas] alineadas con #[b las necesidades comerciales y comunicativas de la organización]. Asimismo, facilita la medición de resultados, la optimización de las campañas y la toma de decisiones basada en datos. Los objetivos más utilizados en campañas digitales se relacionan con el posicionamiento, la interacción y la obtención de resultados comerciales.
       .bg-slider.mb-5
         .px-5
