@@ -9,7 +9,7 @@
       p.mb-5 A continuación, se presenta un video sobre el papel de las redes sociales en las estrategias organizacionales, destacando su contribución a la comunicación digital, el posicionamiento competitivo y el fortalecimiento de las relaciones con los diferentes públicos de interés.
       figure(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/QDK6eoEDv9g?si=F1ysrRUF9IVEggsx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption #[b Video]. #[i Marketing] en redes sociales
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
