@@ -34,7 +34,7 @@
                 img(src='@/assets/curso/temas/t5/img3.png', alt='Diagrama de embudo de conversión con cinco etapas: reconocimiento, interés, consideración, conversión y fidelización, acompañadas por íconos representativos de cada fase. ').m-auto
           .row.justify-content-center.mb-5
             .col-lg-10
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in").mb-3
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-3
                 .row(titulo="Reconocimiento").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 El usuario identifica por primera vez la marca, producto o servicio mediante contenidos, anuncios o publicaciones en plataformas digitales. El objetivo consiste en generar visibilidad y alcance entre las audiencias.
                 .row(titulo="Interés").ajuste-cajaAcordion.ajuste-vineta
@@ -137,13 +137,46 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  watch: {
+    // Escucha el cambio de sección desde el menú lateral
+    '$route.hash'() {
+      this.scrollToElement()
+    },
+  },
   mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+    this.scrollToElement()
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    scrollToElement() {
+      this.$nextTick(() => {
+        this.$aosRefresh()
+
+        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
+        // termine y libere el ancho/alto real del contenedor
+        setTimeout(() => {
+          const hash = this.$route.hash || window.location.hash
+          if (!hash) return
+
+          const element = document.querySelector(hash)
+
+          if (element) {
+            // Altura de la barra superior fija del SENA
+            const headerOffset = 100
+            const elementPosition = element.getBoundingClientRect().top
+            const offsetPosition =
+              elementPosition + window.pageYOffset - headerOffset
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            })
+          }
+        }, 500)
+      })
+    },
   },
 }
 </script>

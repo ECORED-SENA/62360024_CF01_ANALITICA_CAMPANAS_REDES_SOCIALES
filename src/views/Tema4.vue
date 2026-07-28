@@ -13,7 +13,7 @@
       p.mb-5 Los contenidos digitales poseen características que facilitan su creación, distribución y gestión en entornos digitales.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Dinamismo").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Permite la actualización constante de contenidos y su adaptación a tendencias y cambios del entorno digital.
             .row(titulo="Interactividad").ajuste-cajaAcordion.ajuste-vineta
@@ -28,7 +28,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img2.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Medición y análisis").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Permite obtener métricas relacionadas con alcance, interacción, clics y conversiones.
             .row(titulo="Personalización").ajuste-cajaAcordion.ajuste-vineta
@@ -252,13 +252,46 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  watch: {
+    // Escucha el cambio de sección desde el menú lateral
+    '$route.hash'() {
+      this.scrollToElement()
+    },
+  },
   mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+    this.scrollToElement()
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    scrollToElement() {
+      this.$nextTick(() => {
+        this.$aosRefresh()
+
+        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
+        // termine y libere el ancho/alto real del contenedor
+        setTimeout(() => {
+          const hash = this.$route.hash || window.location.hash
+          if (!hash) return
+
+          const element = document.querySelector(hash)
+
+          if (element) {
+            // Altura de la barra superior fija del SENA
+            const headerOffset = 100
+            const elementPosition = element.getBoundingClientRect().top
+            const offsetPosition =
+              elementPosition + window.pageYOffset - headerOffset
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            })
+          }
+        }, 500)
+      })
+    },
   },
 }
 </script>

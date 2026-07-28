@@ -150,7 +150,7 @@
           p.mb-5 Las plataformas sociales ofrecen herramientas que facilitan la segmentación de audiencias, la configuración de campañas y el monitoreo del rendimiento mediante métricas e indicadores. Esto permite evaluar continuamente las acciones implementadas y realizar ajustes orientados al logro de los objetivos definidos. La aplicación de objetivos comerciales en redes sociales puede desarrollarse mediante diferentes procesos de gestión y ejecución de campañas:
       .bg-carrusel
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-5
             .tarjeta.color-acento-botones
               .row.justify-content-center.mb-3
                 .col-12
@@ -208,20 +208,51 @@
 </template>
 
 <script>
-import audio1 from '@/assets/curso/podcast/analitica.mp3'
 export default {
   name: 'Tema3',
   data: () => ({
-    audio1,
-    mostrarIndicadorTarjetaAudio: true,
+    // variables de vue
   }),
+  watch: {
+    // Escucha el cambio de sección desde el menú lateral
+    '$route.hash'() {
+      this.scrollToElement()
+    },
+  },
   mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+    this.scrollToElement()
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    scrollToElement() {
+      this.$nextTick(() => {
+        this.$aosRefresh()
+
+        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
+        // termine y libere el ancho/alto real del contenedor
+        setTimeout(() => {
+          const hash = this.$route.hash || window.location.hash
+          if (!hash) return
+
+          const element = document.querySelector(hash)
+
+          if (element) {
+            // Altura de la barra superior fija del SENA
+            const headerOffset = 100
+            const elementPosition = element.getBoundingClientRect().top
+            const offsetPosition =
+              elementPosition + window.pageYOffset - headerOffset
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            })
+          }
+        }, 500)
+      })
+    },
   },
 }
 </script>
