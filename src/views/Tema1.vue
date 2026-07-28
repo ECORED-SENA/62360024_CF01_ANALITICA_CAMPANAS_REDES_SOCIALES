@@ -18,7 +18,7 @@
       p.mb-5 Su aplicación se fundamenta en el aprovechamiento de #[b las funcionalidades disponibles en cada plataforma] para distribuir información, impulsar campañas publicitarias y desarrollar iniciativas orientadas a públicos específicos. De esta manera, las organizaciones pueden coordinar acciones alineadas con sus metas institucionales y comerciales. Entre las actividades más comunes asociadas al #[i marketing] en redes sociales se encuentran las siguientes:
       .bg-carrusel
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-5
             .tarjeta.color-acento-botones
               .row.justify-content-center.mb-3
                 .col-12
@@ -52,7 +52,7 @@
             img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img5.svg')
             h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Evolución del #[i marketing] digital
       p.mb-5 La evolución del #[i marketing] digital ha estado estrechamente relacionada con los avances de las tecnologías de la información y la comunicación. Inicialmente, las estrategias digitales se centraban en #[b los sitios web y el correo electrónico]. Sin embargo, el crecimiento de las redes sociales transformó la forma en que las organizaciones interactúan con los consumidores. 
-      .caja-2.mb-5(data-aos="zoom-in")
+      .caja-2(data-aos="zoom-in").mb-5
         .row.align-items-center
           .col-xl-auto
             figure
@@ -64,8 +64,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img7.png", alt="" ).m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Inicio del <em>marketing</em> digital").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Uso predominante de sitios web y correo electrónico.
             .row(titulo="Expansión de las redes sociales").ajuste-cajaAcordion.ajuste-vineta
@@ -79,74 +79,73 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img5.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Importancia de las redes sociales en las organizaciones
       p.mb-5 Las redes sociales constituyen un canal estratégico para las organizaciones debido a su capacidad de alcance, interacción y generación de información. Su importancia en el entorno organizacional se refleja en diversos aspectos relacionados con la comunicación, el posicionamiento y la gestión de información: 
-      .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Promoción de productos y servicios
-                  p.mb-0 Facilitan la difusión de productos y servicios a una audiencia amplia, lo que contribuye al incremento de la visibilidad de la organización y al fortalecimiento de sus acciones comerciales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img8.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Fortalecimiento de la imagen corporativa
-                  p.mb-0 Permiten consolidar la identidad de marca y proyectar una imagen coherente mediante la publicación de contenidos alineados con los objetivos organizacionales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img9.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Relación con las audiencias
-                  p.mb-0 Favorecen una comunicación más cercana y directa con clientes, usuarios y demás grupos de interés, fortaleciendo los vínculos y la confianza.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img10.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Conocimiento del público objetivo
-                  p.mb-0 Facilitan la identificación de necesidades, preferencias y comportamientos mediante el análisis de comentarios, reacciones e interacciones generadas por los usuarios.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img11.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Construcción de comunidades digitales
-                  p.mb-0 Promueven espacios de participación e intercambio que contribuyen a la fidelización de clientes y al posicionamiento de la marca.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img12.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Análisis del comportamiento de los usuarios
-                  p.mb-0 Permiten recopilar información sobre hábitos de consumo, intereses y niveles de participación, información útil para el diseño de estrategias digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img13.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Medición del rendimiento de campañas
-                  p.mb-0 Incorporan herramientas analíticas para evaluar variables como alcance, interacción, tráfico y conversiones obtenidas mediante publicaciones y anuncios digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img14.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Toma de decisiones basada en datos
-                  p.mb-0 La información obtenida mediante métricas e indicadores clave de desempeño (#[i Key Performance Indicators] (KPI)) contribuye a evaluar resultados, optimizar contenidos, mejorar campañas y orientar acciones enfocadas en el cumplimiento de objetivos comerciales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t1/img15.png', alt='' style="max-width: 500px").m-auto
+      .bg-slider.mb-4
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Promoción de productos y servicios
+                p.mb-0 Facilitan la difusión de productos y servicios a una audiencia amplia, lo que contribuye al incremento de la visibilidad de la organización y al fortalecimiento de sus acciones comerciales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img8.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Fortalecimiento de la imagen corporativa
+                p.mb-0 Permiten consolidar la identidad de marca y proyectar una imagen coherente mediante la publicación de contenidos alineados con los objetivos organizacionales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img9.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Relación con las audiencias
+                p.mb-0 Favorecen una comunicación más cercana y directa con clientes, usuarios y demás grupos de interés, fortaleciendo los vínculos y la confianza.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img10.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Conocimiento del público objetivo
+                p.mb-0 Facilitan la identificación de necesidades, preferencias y comportamientos mediante el análisis de comentarios, reacciones e interacciones generadas por los usuarios.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img11.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Construcción de comunidades digitales
+                p.mb-0 Promueven espacios de participación e intercambio que contribuyen a la fidelización de clientes y al posicionamiento de la marca.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img12.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Análisis del comportamiento de los usuarios
+                p.mb-0 Permiten recopilar información sobre hábitos de consumo, intereses y niveles de participación, información útil para el diseño de estrategias digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img13.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Medición del rendimiento de campañas
+                p.mb-0 Incorporan herramientas analíticas para evaluar variables como alcance, interacción, tráfico y conversiones obtenidas mediante publicaciones y anuncios digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img14.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Toma de decisiones basada en datos
+                p.mb-0 La información obtenida mediante métricas e indicadores clave de desempeño (#[i Key Performance Indicators] (KPI)) contribuye a evaluar resultados, optimizar contenidos, mejorar campañas y orientar acciones enfocadas en el cumplimiento de objetivos comerciales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t1/img15.png', alt='' style="max-width: 500px").m-auto
       p.mb-0 En consecuencia, las redes sociales no solo funcionan como canales de comunicación, sino también como herramientas estratégicas para la gestión de información, el fortalecimiento de las relaciones con las audiencias y la mejora continua de las estrategias de #[i marketing] digital. 
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2 Objetivos del #[i marketing] en redes sociales
-      p.mb-5 Los objetivos del #[i marketing] en redes sociales corresponden a #[b las metas que las organizaciones] buscan alcanzar mediante la implementación de estrategias digitales en plataformas sociales. Estos objetivos orientan las campañas, facilitan la selección de métricas e indicadores clave de desempeño (#[b #[i Key Performance Indicators] - KPI]) y permiten evaluar los resultados obtenidos en función de las necesidades comerciales y del comportamiento de las audiencias. La adecuada definición de objetivos contribuye a la planificación de contenidos, la segmentación de públicos y la implementación de procesos de medición y análisis orientados a la toma de decisiones basada en datos.
       .bg-carrusel
         .px-5
-          .row.align-items-center.mb-5
+          p.mb-5 Los objetivos del #[i marketing] en redes sociales corresponden a #[b las metas que las organizaciones] buscan alcanzar mediante la implementación de estrategias digitales en plataformas sociales. Estos objetivos orientan las campañas, facilitan la selección de métricas e indicadores clave de desempeño (#[b #[i Key Performance Indicators] - KPI]) y permiten evaluar los resultados obtenidos en función de las necesidades comerciales y del comportamiento de las audiencias. La adecuada definición de objetivos contribuye a la planificación de contenidos, la segmentación de públicos y la implementación de procesos de medición y análisis orientados a la toma de decisiones basada en datos.
+          .row.align-items-center.mb-4
             .col-xl-4(data-aos="fade-right")
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t1/img16.png', alt='' style="max-width: 350px").m-auto
@@ -189,14 +188,14 @@
                   h4.mb-3.estilo-text Fidelización de audiencias
                   p.mb-0 Pretende fortalecer relaciones duraderas con los usuarios a través de contenidos relevantes, experiencias positivas y estrategias de atención que incrementen el compromiso con la marca.
           p.mb-0 Cada objetivo requiere métricas e indicadores específicos para evaluar aspectos relacionados con el alcance, la interacción, el tráfico, la conversión y la fidelización. Por esta razón, las organizaciones seleccionan KPI de acuerdo con las metas establecidas en sus estrategias digitales. La relación entre #[b objetivos, campañas y métricas] permite optimizar contenidos, fortalecer la evaluación de resultados y mejorar los procesos de toma de decisiones basados en información obtenida mediante herramientas analíticas.
-          Separador
-          #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-            h2 1.3 Estrategias aplicadas al #[i marketing] digital
-          p Las estrategias aplicadas al #[i marketing] digital corresponden al conjunto de acciones planificadas que las organizaciones desarrollan para #[b alcanzar objetivos comerciales] mediante plataformas digitales. Su implementación requiere definir objetivos, conocer las características de las audiencias, seleccionar canales de comunicación adecuados y realizar procesos continuos de seguimiento y evaluación.
-          p.mb-5 De acuerdo con #[b los objetivos organizacionales y las características de las plataformas digitales], pueden implementarse diversas estrategias orientadas a fortalecer la presencia digital, mejorar la interacción con los usuarios y optimizar los resultados comerciales.
-      .row.justify-content-center.mb-5
+      Separador
+      #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.3 Estrategias aplicadas al #[i marketing] digital
+      p Las estrategias aplicadas al #[i marketing] digital corresponden al conjunto de acciones planificadas que las organizaciones desarrollan para #[b alcanzar objetivos comerciales] mediante plataformas digitales. Su implementación requiere definir objetivos, conocer las características de las audiencias, seleccionar canales de comunicación adecuados y realizar procesos continuos de seguimiento y evaluación.
+      p.mb-5 De acuerdo con #[b los objetivos organizacionales y las características de las plataformas digitales], pueden implementarse diversas estrategias orientadas a fortalecer la presencia digital, mejorar la interacción con los usuarios y optimizar los resultados comerciales.
+      .row.justify-content-center.mb-4
         .col-lg-10
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in").mb-3
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Estrategias de contenido digital").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Consisten en la planificación, creación y publicación de contenidos informativos, educativos, promocionales o interactivos orientados a captar la atención de las audiencias digitales. Estos contenidos pueden difundirse mediante imágenes, videos, historias, infografías y publicaciones interactivas.
             .row(titulo="Estrategias de interacción en redes sociales").ajuste-cajaAcordion.ajuste-vineta

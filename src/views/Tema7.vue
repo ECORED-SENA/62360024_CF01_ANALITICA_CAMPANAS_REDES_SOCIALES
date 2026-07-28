@@ -98,7 +98,7 @@
       p.mb-5 La relación entre métricas y KPI permite transformar datos operativos en información estratégica para la evaluación y optimización de campañas digitales:
       .bg-carrusel
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-5
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8
@@ -160,58 +160,57 @@
       p Los KPI pueden clasificarse según el objetivo estratégico que buscan evaluar dentro de las campañas digitales. Cada #[b tipo de KPI] permite medir aspectos específicos relacionados con #[b alcance, interacción, tráfico, conversión, crecimiento, rentabilidad y fidelización de audiencias].
       p.mb-5 La correcta selección de KPI facilita el análisis del rendimiento de las estrategias implementadas en redes sociales y contribuye a la toma de decisiones basada en datos analíticos. Asimismo, permite identificar el nivel de cumplimiento de los objetivos comerciales y de #[i marketing] establecidos para cada campaña.
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de alcance
-                  p.mb-0 Permiten medir la visibilidad y exposición de los contenidos publicados en redes sociales. Entre los principales indicadores se encuentran el alcance total, las impresiones, los usuarios únicos alcanzados, las visualizaciones de contenido y la cobertura de publicaciones. Su objetivo es evaluar el nivel de exposición de las campañas digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img16.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de interacción
-                  p.mb-0 Analizan el nivel de participación y compromiso generado por las audiencias dentro de las plataformas digitales. Incluyen indicadores como la tasa de interacción, la cantidad de comentarios, las reacciones, los compartidos, los guardados y la participación de usuarios. Su finalidad es medir el interés generado por los contenidos.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img17.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de tráfico
-                  p.mb-0 Permiten evaluar la cantidad de usuarios dirigidos desde redes sociales hacia sitios web, formularios o plataformas externas. Entre los indicadores más utilizados se encuentran los clics en enlaces, las visitas al sitio web, las sesiones generadas, el tiempo de permanencia y la tasa de rebote. Su objetivo es analizar el flujo de usuarios proveniente de las campañas digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img18.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de conversión
-                  p.mb-0 Miden acciones específicas realizadas por los usuarios como resultado de las campañas implementadas. Incluyen indicadores como la tasa de conversión, los registros realizados, los formularios completados, las descargas y las compras generadas. Su propósito es evaluar el cumplimiento de los objetivos comerciales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img19.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de crecimiento
-                  p.mb-0 Permiten analizar el desarrollo de comunidades digitales y el aumento de audiencias dentro de las plataformas sociales. Consideran indicadores como el crecimiento de seguidores, los nuevos suscriptores, el incremento de audiencia, la retención de seguidores y la variación de la comunidad digital. Su finalidad es medir el fortalecimiento de la presencia digital de la organización.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img20.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de rendimiento y rentabilidad
-                  p.mb-0 Evalúan la efectividad económica y comercial de las campañas digitales. Incluyen indicadores como el retorno de la inversión (Return on Investment - ROI), el costo por clic (CPC), el costo por adquisición (CPA), el rendimiento de anuncios y el retorno sobre la inversión publicitaria. Su objetivo es determinar la rentabilidad y efectividad de las estrategias implementadas.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img21.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 KPI de fidelización
-                  p.mb-0 Permiten medir el nivel de permanencia, compromiso y relación de las audiencias con la marca. Entre los indicadores más utilizados se encuentran las recompras, la participación recurrente, la retención de usuarios, el nivel de satisfacción y la interacción constante. Su objetivo es analizar la fidelidad y permanencia de los usuarios dentro de las comunidades digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t7/img22.png', alt='' style="max-width: 500px").m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de alcance
+                p.mb-0 Permiten medir la visibilidad y exposición de los contenidos publicados en redes sociales. Entre los principales indicadores se encuentran el alcance total, las impresiones, los usuarios únicos alcanzados, las visualizaciones de contenido y la cobertura de publicaciones. Su objetivo es evaluar el nivel de exposición de las campañas digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img16.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de interacción
+                p.mb-0 Analizan el nivel de participación y compromiso generado por las audiencias dentro de las plataformas digitales. Incluyen indicadores como la tasa de interacción, la cantidad de comentarios, las reacciones, los compartidos, los guardados y la participación de usuarios. Su finalidad es medir el interés generado por los contenidos.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img17.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de tráfico
+                p.mb-0 Permiten evaluar la cantidad de usuarios dirigidos desde redes sociales hacia sitios web, formularios o plataformas externas. Entre los indicadores más utilizados se encuentran los clics en enlaces, las visitas al sitio web, las sesiones generadas, el tiempo de permanencia y la tasa de rebote. Su objetivo es analizar el flujo de usuarios proveniente de las campañas digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img18.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de conversión
+                p.mb-0 Miden acciones específicas realizadas por los usuarios como resultado de las campañas implementadas. Incluyen indicadores como la tasa de conversión, los registros realizados, los formularios completados, las descargas y las compras generadas. Su propósito es evaluar el cumplimiento de los objetivos comerciales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img19.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de crecimiento
+                p.mb-0 Permiten analizar el desarrollo de comunidades digitales y el aumento de audiencias dentro de las plataformas sociales. Consideran indicadores como el crecimiento de seguidores, los nuevos suscriptores, el incremento de audiencia, la retención de seguidores y la variación de la comunidad digital. Su finalidad es medir el fortalecimiento de la presencia digital de la organización.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img20.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de rendimiento y rentabilidad
+                p.mb-0 Evalúan la efectividad económica y comercial de las campañas digitales. Incluyen indicadores como el retorno de la inversión (Return on Investment - ROI), el costo por clic (CPC), el costo por adquisición (CPA), el rendimiento de anuncios y el retorno sobre la inversión publicitaria. Su objetivo es determinar la rentabilidad y efectividad de las estrategias implementadas.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img21.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 KPI de fidelización
+                p.mb-0 Permiten medir el nivel de permanencia, compromiso y relación de las audiencias con la marca. Entre los indicadores más utilizados se encuentran las recompras, la participación recurrente, la retención de usuarios, el nivel de satisfacción y la interacción constante. Su objetivo es analizar la fidelidad y permanencia de los usuarios dentro de las comunidades digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t7/img22.png', alt='' style="max-width: 500px").m-auto
       p.mb-5 La utilización de diferentes tipos de KPI permite obtener una visión integral del rendimiento de las campañas digitales. Su análisis facilita la evaluación de resultados, la optimización de estrategias y el fortalecimiento de la toma de decisiones orientada al cumplimiento de los objetivos organizacionales.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10

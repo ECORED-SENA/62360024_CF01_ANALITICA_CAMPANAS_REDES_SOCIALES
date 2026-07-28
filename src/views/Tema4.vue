@@ -78,44 +78,43 @@
           p.mb-0 La selección adecuada de formatos contribuye al fortalecimiento de #[b la presencia digital] y al #[b mejoramiento del rendimiento de las campañas en redes sociales]. Además, facilita la transmisión de mensajes de manera clara, dinámica y atractiva para los usuarios.
       p.mb-5 Las plataformas digitales ofrecen diversos formatos orientados a promover #[b experiencias visuales, audiovisuales e interactivas] que favorecen el consumo de información y la participación de las audiencias: 
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Imágenes y fotografías
-                  p.mb-0 Permiten transmitir información de manera rápida y atractiva. Se utilizan para promocionar productos, fortalecer la identidad de marca y aumentar el reconocimiento entre las audiencias digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t4/img6.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Videos y #[i reels]
-                  p.mb-0 Facilitan la presentación de contenidos dinámicos mediante recursos audiovisuales de corta o larga duración. Favorecen el alcance y la interacción debido a sus altos niveles de consumo y participación.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t4/img7.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Historias digitales
-                  p.mb-0 Corresponden a publicaciones temporales que permanecen visibles durante un periodo determinado. Se utilizan para compartir contenido promocional, informativo e interactivo relacionado con campañas y actividades organizacionales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t4/img8.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Infografías y contenido gráfico
-                  p.mb-0 Integran elementos visuales y textuales para presentar información de manera organizada. Facilitan la explicación de conceptos, estadísticas, procesos y resultados.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t4/img9.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Transmisiones en vivo
-                  p.mb-0 Permiten la interacción en tiempo real con las audiencias mediante eventos, lanzamientos, demostraciones y actividades de comunicación directa.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t4/img10.png', alt='' style="max-width: 500px").m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Imágenes y fotografías
+                p.mb-0 Permiten transmitir información de manera rápida y atractiva. Se utilizan para promocionar productos, fortalecer la identidad de marca y aumentar el reconocimiento entre las audiencias digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t4/img6.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Videos y #[i reels]
+                p.mb-0 Facilitan la presentación de contenidos dinámicos mediante recursos audiovisuales de corta o larga duración. Favorecen el alcance y la interacción debido a sus altos niveles de consumo y participación.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t4/img7.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Historias digitales
+                p.mb-0 Corresponden a publicaciones temporales que permanecen visibles durante un periodo determinado. Se utilizan para compartir contenido promocional, informativo e interactivo relacionado con campañas y actividades organizacionales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t4/img8.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Infografías y contenido gráfico
+                p.mb-0 Integran elementos visuales y textuales para presentar información de manera organizada. Facilitan la explicación de conceptos, estadísticas, procesos y resultados.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t4/img9.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Transmisiones en vivo
+                p.mb-0 Permiten la interacción en tiempo real con las audiencias mediante eventos, lanzamientos, demostraciones y actividades de comunicación directa.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t4/img10.png', alt='' style="max-width: 500px").m-auto
       p.mb-5 Antes de abordar los formatos orientados a #[b la promoción y la participación], es importante destacar que estos recursos permiten fortalecer la interacción con las audiencias y potenciar el alcance de las estrategias digitales.
       TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
         .py-3.py-md-4(titulo="Contenido interactivo")

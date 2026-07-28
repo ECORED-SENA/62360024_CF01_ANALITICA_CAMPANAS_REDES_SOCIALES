@@ -60,9 +60,8 @@
         h2 10.1 Concepto de herramientas de análisis
       p.mb-5 Las herramientas de #[b análisis son recursos digitales] diseñados para #[b recopilar y procesar información] relacionada con el comportamiento de los usuarios y el rendimiento de campañas en redes sociales. Estas herramientas permiten identificar patrones de interacción, medir resultados y evaluar el cumplimiento de objetivos comerciales mediante indicadores y métricas digitales. Su utilización contribuye al fortalecimiento de los procesos de medición y optimización de campañas digitales. Las herramientas analíticas cumplen diversas funciones dentro de los procesos de seguimiento y evaluación de estrategias digitales: 
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
+        .p-5
+            SlyderA.ajuste-slider(tipo="b")
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Medición de alcance e interacción
@@ -127,41 +126,40 @@
       p #[b La navegación en herramientas de análisis] consiste en explorar y utilizar #[b los paneles de control, reportes y funciones] disponibles dentro de plataformas analíticas. Este proceso facilita la consulta de información relacionada con el rendimiento de campañas digitales y el comportamiento de las audiencias en redes sociales.
       p.mb-5 El conocimiento de la navegación permite #[b interpretar métricas y KPI] asociados con #[b alcance, interacción, tráfico y conversión]. Asimismo, facilita el seguimiento continuo de resultados y fortalece la toma de decisiones basada en datos obtenidos mediante herramientas analíticas. La navegación en plataformas analíticas involucra diferentes actividades orientadas a la consulta e interpretación de información digital.
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Exploración de paneles analíticos
-                  p.mb-0 Permite consultar información relacionada con métricas, KPI y comportamiento de campañas digitales mediante gráficos, tablas y reportes estadísticos. Facilita la identificación de resultados asociados con alcance, interacción, tráfico y conversión.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t10/img14.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Consulta de métricas y KPI
-                  p.mb-0 Facilita el seguimiento de indicadores relacionados con el rendimiento de contenidos, campañas y audiencias digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t10/img15.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Interpretación de reportes
-                  p.mb-0 Permite analizar la información obtenida mediante herramientas analíticas para comprender el desempeño de las estrategias implementadas.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t10/img16.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Seguimiento de resultados
-                  p.mb-0 Contribuye al monitoreo continuo de campañas digitales y al análisis de su evolución en diferentes periodos de tiempo.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t10/img17.png', alt='' style="max-width: 500px").m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Exploración de paneles analíticos
+                p.mb-0 Permite consultar información relacionada con métricas, KPI y comportamiento de campañas digitales mediante gráficos, tablas y reportes estadísticos. Facilita la identificación de resultados asociados con alcance, interacción, tráfico y conversión.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t10/img14.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Consulta de métricas y KPI
+                p.mb-0 Facilita el seguimiento de indicadores relacionados con el rendimiento de contenidos, campañas y audiencias digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t10/img15.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Interpretación de reportes
+                p.mb-0 Permite analizar la información obtenida mediante herramientas analíticas para comprender el desempeño de las estrategias implementadas.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t10/img16.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Seguimiento de resultados
+                p.mb-0 Contribuye al monitoreo continuo de campañas digitales y al análisis de su evolución en diferentes periodos de tiempo.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t10/img17.png', alt='' style="max-width: 500px").m-auto
       p.mb-5 Las plataformas sociales incorporan herramientas analíticas con características específicas que permiten recopilar, organizar e interpretar información relacionada con campañas digitales y comportamiento de las audiencias. Estas herramientas facilitan el análisis de métricas y KPI asociados con los objetivos establecidos por las organizaciones:
       .bg-carrusel
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-5
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8

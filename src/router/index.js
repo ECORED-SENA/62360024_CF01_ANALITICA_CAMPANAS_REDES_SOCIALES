@@ -130,7 +130,7 @@ const router = createRouter({
         return new Promise((resolve) => {
           setTimeout(() => {
             resolve(newRoute)
-          }, 500)
+          }, 1000)
         })
       }
     } else {

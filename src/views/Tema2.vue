@@ -67,51 +67,50 @@
         h2 2.1 Características y beneficios de las campañas digitales
       p.mb-5 Las campañas digitales integran herramientas, contenidos y recursos tecnológicos que facilitan la gestión de estrategias de comunicación y #[i marketing] en entornos digitales. Sus principales características son las siguientes:
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Uso de plataformas digitales
-                  p.mb-0 Se desarrollan a través de redes sociales, motores de búsqueda, sitios web y otros canales digitales que facilitan la distribución de contenidos y la comunicación con las audiencias.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img5.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Segmentación de audiencias
-                  p.mb-0 Permiten dirigir mensajes a públicos específicos de acuerdo con variables demográficas, intereses, ubicación geográfica y comportamiento digital.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img6.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Personalización de contenidos
-                  p.mb-0 Facilitan la adaptación de mensajes y formatos según las características y necesidades de cada segmento de audiencia.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img7.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Interacción con los usuarios
-                  p.mb-0 Favorecen la comunicación bidireccional mediante comentarios, reacciones, mensajes y otras formas de participación digital.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img8.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Medición en tiempo real
-                  p.mb-0 Incorporan herramientas analíticas para evaluar continuamente el rendimiento de las campañas mediante métricas e indicadores de desempeño.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img9.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Optimización continua
-                  p.mb-0 Permiten realizar ajustes estratégicos a partir de los resultados obtenidos y del comportamiento de las audiencias.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img10.png', alt='' style="max-width: 500px").m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Uso de plataformas digitales
+                p.mb-0 Se desarrollan a través de redes sociales, motores de búsqueda, sitios web y otros canales digitales que facilitan la distribución de contenidos y la comunicación con las audiencias.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img5.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Segmentación de audiencias
+                p.mb-0 Permiten dirigir mensajes a públicos específicos de acuerdo con variables demográficas, intereses, ubicación geográfica y comportamiento digital.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img6.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Personalización de contenidos
+                p.mb-0 Facilitan la adaptación de mensajes y formatos según las características y necesidades de cada segmento de audiencia.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img7.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Interacción con los usuarios
+                p.mb-0 Favorecen la comunicación bidireccional mediante comentarios, reacciones, mensajes y otras formas de participación digital.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img8.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Medición en tiempo real
+                p.mb-0 Incorporan herramientas analíticas para evaluar continuamente el rendimiento de las campañas mediante métricas e indicadores de desempeño.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img9.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Optimización continua
+                p.mb-0 Permiten realizar ajustes estratégicos a partir de los resultados obtenidos y del comportamiento de las audiencias.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img10.png', alt='' style="max-width: 500px").m-auto
       p.mb-5 Estas características generan beneficios que fortalecen la gestión de las organizaciones en los entornos digitales:
       .bg-carrusel
         .px-5
@@ -181,51 +180,50 @@
       p Los objetivos de las campañas digitales corresponden a los resultados que las organizaciones esperan alcanzar mediante la implementación de estrategias de #[i marketing] en redes sociales. Estos objetivos orientan #[b el desarrollo de contenidos, la segmentación de audiencias y la selección de métricas e indicadores] para evaluar el rendimiento de las campañas.
       p.mb-5 La definición de objetivos claros permite establecer #[b acciones estratégicas] alineadas con #[b las necesidades comerciales y comunicativas de la organización]. Asimismo, facilita la medición de resultados, la optimización de las campañas y la toma de decisiones basada en datos. Los objetivos más utilizados en campañas digitales se relacionan con el posicionamiento, la interacción y la obtención de resultados comerciales.
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Reconocimiento de marca
-                  p.mb-0 Busca aumentar la visibilidad y recordación de una empresa, producto o servicio dentro de las plataformas digitales. Para ello, se utilizan contenidos visuales, videos, historias y estrategias de difusión orientadas a fortalecer la identidad de marca y ampliar su alcance entre las audiencias.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img19.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Interacción con las audiencias
-                  p.mb-0 Promueve la participación de los usuarios mediante comentarios, reacciones, mensajes, compartidos y otras acciones que fortalecen la comunicación entre la organización y sus comunidades digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img20.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Generación de tráfico web
-                  p.mb-0 Tiene como propósito dirigir usuarios hacia sitios web, blogs, tiendas virtuales o páginas de destino, incrementando las oportunidades de contacto y conversión.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img21.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Captación de clientes potenciales
-                  p.mb-0 Busca identificar usuarios interesados en los productos o servicios de la organización mediante formularios, contenidos especializados y campañas segmentadas.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img22.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Conversión
-                  p.mb-0 Se orienta a lograr acciones específicas por parte de los usuarios, como compras, registros, descargas, clics o solicitudes de información, transformando la interacción digital en resultados medibles.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img23.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Fidelización
-                  p.mb-0 Pretende fortalecer las relaciones con los usuarios mediante contenidos relevantes y experiencias positivas que favorezcan el compromiso y la permanencia de las audiencias.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t2/img24.png', alt='' style="max-width: 500px").m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Reconocimiento de marca
+                p.mb-0 Busca aumentar la visibilidad y recordación de una empresa, producto o servicio dentro de las plataformas digitales. Para ello, se utilizan contenidos visuales, videos, historias y estrategias de difusión orientadas a fortalecer la identidad de marca y ampliar su alcance entre las audiencias.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img19.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Interacción con las audiencias
+                p.mb-0 Promueve la participación de los usuarios mediante comentarios, reacciones, mensajes, compartidos y otras acciones que fortalecen la comunicación entre la organización y sus comunidades digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img20.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Generación de tráfico web
+                p.mb-0 Tiene como propósito dirigir usuarios hacia sitios web, blogs, tiendas virtuales o páginas de destino, incrementando las oportunidades de contacto y conversión.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img21.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Captación de clientes potenciales
+                p.mb-0 Busca identificar usuarios interesados en los productos o servicios de la organización mediante formularios, contenidos especializados y campañas segmentadas.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img22.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Conversión
+                p.mb-0 Se orienta a lograr acciones específicas por parte de los usuarios, como compras, registros, descargas, clics o solicitudes de información, transformando la interacción digital en resultados medibles.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img23.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Fidelización
+                p.mb-0 Pretende fortalecer las relaciones con los usuarios mediante contenidos relevantes y experiencias positivas que favorezcan el compromiso y la permanencia de las audiencias.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t2/img24.png', alt='' style="max-width: 500px").m-auto
       p Cada objetivo requiere métricas e indicadores específicos para evaluar su nivel de cumplimiento. Por esta razón, las organizaciones seleccionan indicadores relacionados con alcance, interacción, tráfico, generación de clientes potenciales y conversiones, de acuerdo con las metas definidas para cada campaña.
       p.mb-0 La adecuada relación entre objetivos, estrategias y métricas permite evaluar el rendimiento de las campañas digitales, optimizar los recursos disponibles y fortalecer los resultados obtenidos en las plataformas sociales.
               

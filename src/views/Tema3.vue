@@ -34,44 +34,43 @@
           p.mb-0 Cada campaña debe responder a un propósito específico, ya sea aumentar el #[b reconocimiento de marca, generar interacción, captar clientes potenciales o incrementar las conversiones]. La definición clara de los objetivos facilita la organización de recursos, el seguimiento de resultados y la optimización de las estrategias implementadas. 
       p.mb-5 La articulación entre objetivos comerciales y campañas digitales puede comprenderse a partir de los siguientes elementos:
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Objetivos comerciales
-                  p.mb-0 Definen los resultados que la organización espera alcanzar y orientan la planificación de las acciones digitales.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t3/img5.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Estrategias de #[i marketing] digital
-                  p.mb-0 Determinan las acciones necesarias para alcanzar los objetivos establecidos mediante contenidos, publicidad y actividades de interacción.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t3/img6.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Plataformas digitales
-                  p.mb-0 Se seleccionan de acuerdo con las características de las audiencias y las metas de la campaña.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t3/img7.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Segmentación de audiencias
-                  p.mb-0 Permite dirigir los mensajes a grupos específicos de usuarios para incrementar la relevancia y efectividad de las acciones implementadas.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t3/img8.png', alt='' style="max-width: 500px").m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas e indicadores
-                  p.mb-0 Facilitan la evaluación del rendimiento de las campañas y la medición del cumplimiento de los objetivos definidos.
-                .col-xl-6
-                  figure
-                    img(src='@/assets/curso/temas/t3/img9.png', alt='' style="max-width: 500px").m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Objetivos comerciales
+                p.mb-0 Definen los resultados que la organización espera alcanzar y orientan la planificación de las acciones digitales.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t3/img5.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Estrategias de #[i marketing] digital
+                p.mb-0 Determinan las acciones necesarias para alcanzar los objetivos establecidos mediante contenidos, publicidad y actividades de interacción.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t3/img6.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Plataformas digitales
+                p.mb-0 Se seleccionan de acuerdo con las características de las audiencias y las metas de la campaña.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t3/img7.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Segmentación de audiencias
+                p.mb-0 Permite dirigir los mensajes a grupos específicos de usuarios para incrementar la relevancia y efectividad de las acciones implementadas.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t3/img8.png', alt='' style="max-width: 500px").m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas e indicadores
+                p.mb-0 Facilitan la evaluación del rendimiento de las campañas y la medición del cumplimiento de los objetivos definidos.
+              .col-xl-6
+                figure
+                  img(src='@/assets/curso/temas/t3/img9.png', alt='' style="max-width: 500px").m-auto
       p.mb-5 La planeación constituye una etapa fundamental dentro del proceso de diseño de campañas digitales, ya que permite organizar los recursos y las acciones necesarias para alcanzar los resultados esperados.
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(

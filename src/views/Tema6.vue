@@ -65,79 +65,78 @@
           p Las métricas en redes sociales pueden clasificarse según el tipo de información que proporcionan y los objetivos de las campañas digitales. Cada métrica permite analizar aspectos específicos relacionados con visibilidad, interacción, tráfico, conversión, crecimiento y rendimiento de las estrategias implementadas.
           p.mb-5 La selección adecuada de métricas facilita el seguimiento del rendimiento de contenidos y campañas desarrolladas en plataformas sociales. Asimismo, proporciona información relevante para la optimización de estrategias y la toma de decisiones basada en datos.
       .bg-slider.mb-5
-        .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de alcance
-                  p.mb-0 Permiten medir la cantidad de usuarios que visualizan los contenidos publicados en redes sociales. Entre las principales métricas se encuentran el alcance, las impresiones, las visualizaciones, la cobertura de publicaciones y los usuarios únicos alcanzados. Su objetivo es evaluar la visibilidad y exposición de contenidos y campañas digitales.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 2.
-                    span Métricas de alcance
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img8.png', alt='Panel de métricas de alcance en campañas digitales con indicadores de impresiones, alcance, visualizaciones, frecuencia, compartidos y guardados, junto con gráfico de tendencia temporal. ').m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de interacción
-                  p.mb-0 Analizan la participación de los usuarios dentro de las publicaciones y campañas desarrolladas en plataformas digitales. Incluyen métricas como reacciones, comentarios, compartidos, guardados y clics en publicaciones. Su finalidad es medir el compromiso y la participación de las audiencias digitales.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 3.
-                    span Métricas de interacción
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img9.png', alt='Panel de métricas de interacción con indicadores de me gusta, comentarios, compartidos, guardados y tasa de interacción, acompañado de gráfico de evolución. ').m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de tráfico
-                  p.mb-0 Permiten analizar la cantidad de usuarios que acceden a sitios web, formularios o plataformas externas mediante enlaces compartidos en redes sociales. Entre las más utilizadas se encuentran los clics en enlaces, las visitas al sitio web, las sesiones generadas, el tiempo de permanencia y la tasa de rebote. Su objetivo es evaluar el flujo de usuarios dirigido hacia plataformas externas.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 4.
-                    span Métricas de tráfico
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img10.png', alt='Panel de métricas de tráfico con indicadores de clics en enlaces, visitas al perfil, visitas al sitio web, visitas a la página y nuevos seguidores, junto con gráfico de tendencia. ').m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de conversión
-                  p.mb-0 Miden acciones específicas realizadas por los usuarios como resultado de las campañas digitales. Incluyen compras realizadas, registros, descargas, formularios completados y suscripciones. Su propósito es evaluar el cumplimiento de objetivos comerciales y los resultados obtenidos mediante las campañas implementadas.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 5.
-                    span Métricas de conversión
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img11.png', alt='Panel de métricas de conversión con indicadores de conversiones, tasa de conversión, costo por conversión, valor de conversión y desempeño del embudo, acompañado de gráfico temporal. ').m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de crecimiento
-                  p.mb-0 Permiten analizar el desarrollo y aumento de las comunidades digitales dentro de las plataformas sociales. Consideran indicadores como nuevos seguidores, crecimiento de audiencia, incremento de suscriptores, variación de la comunidad digital y retención de seguidores. Su objetivo es evaluar el fortalecimiento de la presencia digital de la organización.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 6.
-                    span Métricas de crecimiento
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img12.png', alt='Panel de métricas de crecimiento con indicadores de nuevos seguidores, seguidores totales, crecimiento de audiencia, usuarios que dejaron de seguir y tasa de crecimiento, junto con gráfico de barras. ').m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de rendimiento
-                  p.mb-0 Analizan la efectividad general de campañas y estrategias digitales implementadas en redes sociales. Incluyen indicadores como el retorno de la inversión (#[i Return on Investment] - ROI), el costo por clic (CPC), el costo por adquisición (CPA), la tasa de conversión y el rendimiento de anuncios. Su finalidad es evaluar la efectividad y rentabilidad de las campañas digitales.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 7.
-                    span Métricas de rendimiento
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img13.png', alt='Panel de métricas de rendimiento con indicadores de engagement rate, ROI, CPC, CTR y CPM, acompañado de gráficos de evolución y resumen de resultados. ').m-auto
-              .row.justify-content-center.align-items-center
-                .col-xl-6.mb-4
-                  h4 Métricas de fidelización
-                  p.mb-0 Permiten analizar el nivel de permanencia y compromiso de las audiencias con la marca. Entre las principales métricas se encuentran la recurrencia de interacción, la participación constante, la retención de usuarios, las recompras y el nivel de satisfacción. Su objetivo es medir la relación y permanencia de los usuarios dentro de las comunidades digitales.
-                .col-xl-6
-                  .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
-                    h5 Figura 8.
-                    span Métricas de fidelización
-                  figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t6/img14.png', alt='Panel de métricas de fidelización con indicadores de retención, clientes recurrentes, valor del cliente, Net Promoter Score y tasa de recompra, junto con gráficos de retención y cohortes. ').m-auto
+        .p-5
+          SlyderA.ajuste-slider(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de alcance
+                p.mb-0 Permiten medir la cantidad de usuarios que visualizan los contenidos publicados en redes sociales. Entre las principales métricas se encuentran el alcance, las impresiones, las visualizaciones, la cobertura de publicaciones y los usuarios únicos alcanzados. Su objetivo es evaluar la visibilidad y exposición de contenidos y campañas digitales.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 2.
+                  span Métricas de alcance
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img8.png', alt='Panel de métricas de alcance en campañas digitales con indicadores de impresiones, alcance, visualizaciones, frecuencia, compartidos y guardados, junto con gráfico de tendencia temporal. ').m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de interacción
+                p.mb-0 Analizan la participación de los usuarios dentro de las publicaciones y campañas desarrolladas en plataformas digitales. Incluyen métricas como reacciones, comentarios, compartidos, guardados y clics en publicaciones. Su finalidad es medir el compromiso y la participación de las audiencias digitales.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 3.
+                  span Métricas de interacción
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img9.png', alt='Panel de métricas de interacción con indicadores de me gusta, comentarios, compartidos, guardados y tasa de interacción, acompañado de gráfico de evolución. ').m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de tráfico
+                p.mb-0 Permiten analizar la cantidad de usuarios que acceden a sitios web, formularios o plataformas externas mediante enlaces compartidos en redes sociales. Entre las más utilizadas se encuentran los clics en enlaces, las visitas al sitio web, las sesiones generadas, el tiempo de permanencia y la tasa de rebote. Su objetivo es evaluar el flujo de usuarios dirigido hacia plataformas externas.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 4.
+                  span Métricas de tráfico
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img10.png', alt='Panel de métricas de tráfico con indicadores de clics en enlaces, visitas al perfil, visitas al sitio web, visitas a la página y nuevos seguidores, junto con gráfico de tendencia. ').m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de conversión
+                p.mb-0 Miden acciones específicas realizadas por los usuarios como resultado de las campañas digitales. Incluyen compras realizadas, registros, descargas, formularios completados y suscripciones. Su propósito es evaluar el cumplimiento de objetivos comerciales y los resultados obtenidos mediante las campañas implementadas.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 5.
+                  span Métricas de conversión
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img11.png', alt='Panel de métricas de conversión con indicadores de conversiones, tasa de conversión, costo por conversión, valor de conversión y desempeño del embudo, acompañado de gráfico temporal. ').m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de crecimiento
+                p.mb-0 Permiten analizar el desarrollo y aumento de las comunidades digitales dentro de las plataformas sociales. Consideran indicadores como nuevos seguidores, crecimiento de audiencia, incremento de suscriptores, variación de la comunidad digital y retención de seguidores. Su objetivo es evaluar el fortalecimiento de la presencia digital de la organización.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 6.
+                  span Métricas de crecimiento
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img12.png', alt='Panel de métricas de crecimiento con indicadores de nuevos seguidores, seguidores totales, crecimiento de audiencia, usuarios que dejaron de seguir y tasa de crecimiento, junto con gráfico de barras. ').m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de rendimiento
+                p.mb-0 Analizan la efectividad general de campañas y estrategias digitales implementadas en redes sociales. Incluyen indicadores como el retorno de la inversión (#[i Return on Investment] - ROI), el costo por clic (CPC), el costo por adquisición (CPA), la tasa de conversión y el rendimiento de anuncios. Su finalidad es evaluar la efectividad y rentabilidad de las campañas digitales.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 7.
+                  span Métricas de rendimiento
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img13.png', alt='Panel de métricas de rendimiento con indicadores de engagement rate, ROI, CPC, CTR y CPM, acompañado de gráficos de evolución y resumen de resultados. ').m-auto
+            .row.justify-content-center.align-items-center
+              .col-xl-6.mb-4
+                h4 Métricas de fidelización
+                p.mb-0 Permiten analizar el nivel de permanencia y compromiso de las audiencias con la marca. Entre las principales métricas se encuentran la recurrencia de interacción, la participación constante, la retención de usuarios, las recompras y el nivel de satisfacción. Su objetivo es medir la relación y permanencia de los usuarios dentro de las comunidades digitales.
+              .col-xl-6
+                .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
+                  h5 Figura 8.
+                  span Métricas de fidelización
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/t6/img14.png', alt='Panel de métricas de fidelización con indicadores de retención, clientes recurrentes, valor del cliente, Net Promoter Score y tasa de recompra, junto con gráficos de retención y cohortes. ').m-auto
       p.mb-5 La interpretación conjunta de estas métricas proporciona una visión integral del comportamiento de las audiencias y del rendimiento de las campañas digitales. Su análisis facilita la identificación de oportunidades de mejora, la optimización de contenidos y el fortalecimiento de las estrategias orientadas al cumplimiento de los objetivos organizacionales.
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
