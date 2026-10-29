@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="97.999" viewBox="0 0 98 97.999">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_412666" data-name="Rectangle 412666" width="56" height="54" transform="translate(929.77 2701.05)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1206599" data-name="Group 1206599" transform="translate(-908.5 -2678.6)">
+    <g id="Group_1206327" data-name="Group 1206327" transform="translate(37.388 2401.436)">
+      <g id="Group_1188789" data-name="Group 1188789" transform="translate(871.113 277.164)">
+        <path id="Path_1243039" data-name="Path 1243039" d="M41.05,0h0a41.05,41.05,0,0,1,0,82.1h0a41.05,41.05,0,0,1,0-82.1Z" transform="translate(7.951 7.949)" fill="#ffa724"/>
+        <rect id="Rectangle_400907" data-name="Rectangle 400907" width="88.438" height="88.437" rx="44.218" transform="translate(4.782 4.781)" fill="none"/>
+        <g id="Group_1098742" data-name="Group 1098742" transform="translate(0)">
+          <g id="Rectangle_400898" data-name="Rectangle 400898" transform="translate(0)" fill="none" stroke="#fff" stroke-width="2" opacity="0.859">
+            <rect width="98" height="97.999" rx="48.999" stroke="none"/>
+            <rect x="1" y="1" width="96" height="95.999" rx="47.999" fill="none"/>
+          </g>
+          <g id="Rectangle_400907-2" data-name="Rectangle 400907" transform="translate(0)" fill="none" stroke="#0f1f33" stroke-linecap="round" stroke-width="2">
+            <rect width="98" height="97.999" rx="48.999" stroke="none"/>
+            <rect x="1" y="1" width="96" height="95.999" rx="47.999" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_1099510" data-name="Mask Group 1099510" clip-path="url(#clip-path)">
+      <g id="Page-1" transform="translate(930.764 2701.039)">
+        <g id="_011---Click-Analytics" data-name="011---Click-Analytics">
+          <g id="Icons_copy" transform="translate(0.9 0.9)">
+            <path id="Shape" d="M46.809,52.21H5.4a5.4,5.4,0,0,1-5.4-5.4v-2.7a.9.9,0,0,1,.9-.9H51.31a.9.9,0,0,1,.9.9v2.7A5.4,5.4,0,0,1,46.809,52.21Z" fill="#7f8e94"/>
+            <path id="Shape-2" data-name="Shape" d="M51.31,43.208h-2.7a.9.9,0,0,1,.9.9v2.7a5.4,5.4,0,0,1-5.4,5.4h2.7a5.4,5.4,0,0,0,5.4-5.4v-2.7A.9.9,0,0,0,51.31,43.208Z" fill="#545c60"/>
+            <path id="Shape-3" data-name="Shape" d="M17.1,43.208h18v1.8a2.7,2.7,0,0,1-2.7,2.7H19.8a2.7,2.7,0,0,1-2.7-2.7Z" fill="#37474f"/>
+            <path id="Shape-4" data-name="Shape" d="M50.41,20.236V43.208H1.8V9.9A3.6,3.6,0,0,1,5.4,6.3H27.293A13.5,13.5,0,1,0,50.41,20.236Z" fill="#f5f5f5"/>
+            <path id="Shape-5" data-name="Shape" d="M47.709,23.567V43.208h2.7V20.236A13.791,13.791,0,0,1,47.709,23.567Z" fill="#cfd8dc"/>
+            <path id="Shape-6" data-name="Shape" d="M18,27.005,6.67,30.7,8.588,32.6a.9.9,0,0,1,0,1.278L5.4,37.06l2.547,2.547,3.178-3.187a.9.9,0,0,1,1.278,0l1.908,1.917Z" fill="#3f51b5"/>
+            <path id="Shape-7" data-name="Shape" d="M52.21,13.5a13.413,13.413,0,1,1-3.928-9.574A13.5,13.5,0,0,1,52.21,13.5Z" fill="#e91e63"/>
+            <path id="Shape-8" data-name="Shape" d="M38.708,0a12.72,12.72,0,0,0-1.314.072,13.5,13.5,0,0,1-.072,26.861c.459,0,.9.072,1.386.072A13.5,13.5,0,1,0,38.708,0Z" fill="#ad1457"/>
+            <g id="Group_1206598" data-name="Group 1206598">
+              <circle id="Oval" cx="1.8" cy="1.8" r="1.8" transform="translate(29.706 15.303)" fill="#02a9f4"/>
+              <circle id="Oval-2" data-name="Oval" cx="1.8" cy="1.8" r="1.8" transform="translate(35.107 6.301)" fill="#02a9f4"/>
+              <circle id="Oval-3" data-name="Oval" cx="1.8" cy="1.8" r="1.8" transform="translate(41.408 18.003)" fill="#02a9f4"/>
+              <circle id="Oval-4" data-name="Oval" cx="1.8" cy="1.8" r="1.8" transform="translate(45.009 11.702)" fill="#02a9f4"/>
+            </g>
+          </g>
+          <g id="Icons">
+            <path id="Shape-9" data-name="Shape" d="M13.5,46.809H10.8a.9.9,0,1,0,0,1.8h2.7a.9.9,0,1,0,0-1.8Z"/>
+            <circle id="Oval-5" data-name="Oval" cx="0.9" cy="0.9" r="0.9" transform="translate(4.501 46.809)"/>
+            <circle id="Oval-6" data-name="Oval" cx="0.9" cy="0.9" r="0.9" transform="translate(7.201 46.809)"/>
+            <path id="Shape-10" data-name="Shape" d="M18.625,27.05,7.291,30.741a.9.9,0,0,0-.351,1.494l1.908,1.908L5.662,37.321a.945.945,0,0,0-.261.639.9.9,0,0,0,.261.639L8.21,41.147a.9.9,0,0,0,.639.261.945.945,0,0,0,.639-.261l3.178-3.187,1.908,1.908a.9.9,0,0,0,1.494-.351L19.8,28.184A.9.9,0,0,0,18.67,27.05ZM14.808,37.564l-.9-.9a1.8,1.8,0,0,0-2.547,0L8.849,39.239,7.57,37.96l2.547-2.547a1.8,1.8,0,0,0,0-2.547l-.9-.9,8.255-2.7Z"/>
+            <path id="Shape-11" data-name="Shape" d="M18.9,20.7a.9.9,0,0,0-.9.9v1.8a.9.9,0,0,0,1.8,0V21.6A.9.9,0,0,0,18.9,20.7Z"/>
+            <path id="Shape-12" data-name="Shape" d="M15.087,25.358a.9.9,0,1,0,1.269-1.269L15.087,22.81a.9.9,0,0,0-1.278,1.278Z"/>
+            <path id="Shape-13" data-name="Shape" d="M22.72,30.453a.9.9,0,1,0-1.269,1.269L22.72,33A.9.9,0,1,0,24,31.722Z"/>
+            <path id="Shape-14" data-name="Shape" d="M25.2,27.005H23.4a.9.9,0,0,0,0,1.8h1.8a.9.9,0,1,0,0-1.8Z"/>
+            <path id="Shape-15" data-name="Shape" d="M22.09,25.619a.9.9,0,0,0,.63-.261L24,24.089A.9.9,0,0,0,22.72,22.81l-1.269,1.278a.9.9,0,0,0,.639,1.53Z"/>
+            <path id="Shape-16" data-name="Shape" d="M54.01,14.4a14.4,14.4,0,0,0-26.3-8.1H6.3a4.5,4.5,0,0,0-4.5,4.5V43.208a1.8,1.8,0,0,0-1.8,1.8v2.7a6.3,6.3,0,0,0,6.3,6.3H47.709a6.3,6.3,0,0,0,6.3-6.3v-2.7a1.8,1.8,0,0,0-1.8-1.8V21.361a14.322,14.322,0,0,0,1.8-6.958ZM39.608,1.8a12.6,12.6,0,1,1-12.6,12.6A12.6,12.6,0,0,1,39.608,1.8Zm12.6,45.909a4.5,4.5,0,0,1-4.5,4.5H6.3a4.5,4.5,0,0,1-4.5-4.5v-2.7H17.1v.9a3.6,3.6,0,0,0,3.6,3.6h12.6a3.6,3.6,0,0,0,3.6-3.6v-.9h15.3ZM18.9,45.009h16.2v.9a1.8,1.8,0,0,1-1.8,1.8H20.7a1.8,1.8,0,0,1-1.8-1.8Zm31.506-1.8H3.6V10.8A2.7,2.7,0,0,1,6.3,8.1H26.672A14.4,14.4,0,0,0,50.41,23.9Z"/>
+            <path id="Shape-17" data-name="Shape" d="M32.406,20.7a2.7,2.7,0,0,0,2.079-4.411l2.782-4.645a2.62,2.62,0,0,0,.54.054,2.079,2.079,0,0,0,.414-.045L42.11,18.9a2.7,2.7,0,1,0,4.033.045L47.232,17.1a2.763,2.763,0,0,0,.477,0,2.662,2.662,0,1,0-2.034-.9l-1.089,1.89a2.764,2.764,0,0,0-.477-.09,2.079,2.079,0,0,0-.414.045l-3.889-7.2a2.716,2.716,0,1,0-4.078-.135l-2.782,4.645a2.619,2.619,0,0,0-.54-.054,2.7,2.7,0,1,0,0,5.4Zm15.3-7.2a.9.9,0,1,1-.9.9A.9.9,0,0,1,47.709,13.5Zm-2.7,7.2a.9.9,0,1,1-.9-.9A.9.9,0,0,1,45.009,20.7Zm-7.2-12.6a.9.9,0,1,1-.9.9A.9.9,0,0,1,37.807,8.1Zm-5.4,9a.9.9,0,1,1-.9.9A.9.9,0,0,1,32.406,17.1Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
